@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* -----------------------------heading------------------- */
+body{
+    background-color: #e2dada;
+}
+.header{
+    padding: 20px 0 40px;
+    background-color: #e2dada;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.header h2{
+    color: #ffa500;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+
+}
+
+.header .sec-hed-main{
+    /* color: #b89a03; */
+    /* color: #ffa500; */
+    color: #555;
+    font-size:25px;
+    font-weight: 600;
+    margin: 0;
+}
+.header #countCoutry{
+    color:#ffa500;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+/* ----------------------searchbar--------------------- */
+.controls{
+    background-color:white;
+    padding: 30px 0 20px;
+    margin-bottom: 20px;
+    /* text-align: center; */
+}
+.searchBar{
+    font-size: 20px;
+    border-radius: 20px;
+    /* border: none; */
+    width: 55%;
+    height: 40px;
+    margin: 0 auto 20px ;
+    font-size: 20px;
+    /* color:black; */
+    background-color:whitesmoke;
+    border: 2px solid rgba(253, 245, 245);
+    outline: none;
+}
+
+.searchBar:is(:hover,:focus,:active){
+    box-shadow:0 0 0.1rem 0.1rem rgba(236, 230, 230);
+    background-color: rgb(250, 246, 246);
+    border: none;
+    outline: none;
+    color: #ffa500;
+    font-weight: 500;
+}
+/* -----------------------------------btns----------------------- */
+.button {
+    text-align: center;
+    position: relative;
+    right: 5%;
+}
+/* .populationBtn{
+    border-radius: 25px;
+} */
+.button div{
+    display: inline-block;
+    margin: 10px 0px 10px 15px ;
+}
+.button div button {
+    background-color: #ffa500;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px;
+    text-align: center;
+    border-radius: 25px;
+    width:180px;
+    border: none;
+}
+.chatbaricon i{
+    font-size: 55px;
+    color:#ffa500;
+    margin:auto 20px;
+    position: absolute;
+    top: 0%;
+}
+/* ------------------------------cards---------------------------- */
+
+.countryCard{
+margin-bottom: 15px;
+
+}
+.countryCard img{
+    width: 160px;
+    height: 100px;
+    margin: 20px auto 15px;
+    padding: 0 0 10px;
+}
+
+.countryCard .card-body{
+    height: 240px;
+    overflow: hidden;
+}
+.countryCard .card-title {
+    color: #ffa500;
+    font-weight: bold;
+}
+
+.countryCard p{
+    color: gray;
+}
+
+
+.wrapper {
+    background-color: white;
+    padding: 40px 0;
+    /* margin: auto; */
+    text-align: center;
+}
+
+.graphGroup{
+    padding:1rem 0 1rem;
+}
+
+.graph-buttons{
+ background-color: white;
+ padding: 2rem 1rem;
+ /* margin-right: .5rem; */
+}
+
+
+.graph-title{
+font-size: 2rem;
+text-align: center;
+margin: 10px 0 0 0;
+color: #ffa500;
+}
+
+.populationsort {
+    background-color: #ffa500;
+    padding: 5px 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    margin-right: .5rem;
+}
+.languagessort{
+    background-color: #ffa500;
+    padding: 5px 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+}
+
+.chartBox{
+    background-color:white;
+    padding: 2rem 0;
+}
+.chartBox .bar{
+    height: 1.6rem;
+    width: 100%;
+    border: none;
+    background-color: rgb(196, 186, 186);
+
+}
+
+.chartBox .bar .percentage{
+    height: 1.6rem;
+    background-color: orange;
+}
+
+/* ----------------------------------------footer------------- */
+
+footer{
+    padding: 1.5rem 0 3.5rem;
+    text-align:center;
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+}
+
+.hedingcopywrite{
+    margin-bottom: 1rem;
+}
+
+
+a{
+    font-size: 2.4rem;
+    margin-right: 2.5rem;
+}
+a:nth-child(1){
+    color: black;
+}
+
